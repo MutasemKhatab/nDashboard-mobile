@@ -82,7 +82,13 @@ class _ReactPortalPageState extends State<ReactPortalPage> {
       canPop: false,
       onPopInvokedWithResult: (didPop, result) => _handleWillPop,
       child: Scaffold(
-        appBar: AppBar(title: const Text('nLeads Web View')),
+        appBar: AppBar(
+          centerTitle: true,
+          title: const Text(
+            'nLeads Web View',
+            style: TextStyle(fontSize: 16.0, fontWeight: FontWeight.normal),
+          ),
+        ),
         body: Column(
           children: [
             WebViewLoadingIndicator(progress: _progress),
