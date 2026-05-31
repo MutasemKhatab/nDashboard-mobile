@@ -85,7 +85,7 @@ class _ReactPortalPageState extends State<ReactPortalPage> {
         appBar: AppBar(
           centerTitle: true,
           title: const Text(
-            'nLeads Web View',
+            'nDashboard Web View',
             style: TextStyle(fontSize: 16.0, fontWeight: FontWeight.normal),
           ),
         ),

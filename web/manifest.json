@@ -1,6 +1,6 @@
 {
-    "name": "nleads",
-    "short_name": "nleads",
+    "name": "ndashboard",
+    "short_name": "ndashboard",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#9acd32",

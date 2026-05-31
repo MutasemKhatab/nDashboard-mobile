@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.ntelgnt" "\0"
-            VALUE "FileDescription", "nleads" "\0"
+            VALUE "FileDescription", "ndashboard" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "nleads" "\0"
+            VALUE "InternalName", "ndashboard" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2026 com.ntelgnt. All rights reserved." "\0"
-            VALUE "OriginalFilename", "nleads.exe" "\0"
-            VALUE "ProductName", "nleads" "\0"
+            VALUE "OriginalFilename", "ndashboard.exe" "\0"
+            VALUE "ProductName", "ndashboard" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END
