@@ -5,6 +5,7 @@ import '../../presentation/bloc/react_portal_event.dart';
 import '../../presentation/bloc/react_portal_state.dart';
 import '../widgets/webview_loading_indicator.dart';
 import '../../../../utils/url_launcher_utils.dart';
+import '../../../../pages/settings_page.dart';
 
 class ReactPortalPage extends StatefulWidget {
   final String initialUrl;
@@ -88,6 +89,17 @@ class _ReactPortalPageState extends State<ReactPortalPage> {
             'nDashboard Web View',
             style: TextStyle(fontSize: 16.0, fontWeight: FontWeight.normal),
           ),
+          actions: [
+            IconButton(
+              icon: const Icon(Icons.settings),
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => const SettingsPage()),
+                );
+              },
+            ),
+          ],
         ),
         body: Column(
           children: [

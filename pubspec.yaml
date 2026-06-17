@@ -39,6 +39,8 @@ dependencies:
   url_launcher: ^6.3.2
   flutter_bloc: ^9.1.1
   get_it: ^9.2.1
+  dynamic_app_icon_flutter_plus: ^1.0.0
+  shared_preferences: ^2.5.2
 
 dev_dependencies:
   flutter_test:
